@@ -6,6 +6,8 @@ public class Farm {
         return "dog";
     }
 
-//    public Boolean gameRunning()
+    public Boolean gameOver() {
+    return false;
+    }
 
 }
