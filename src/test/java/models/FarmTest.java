@@ -18,4 +18,11 @@ public class FarmTest {
         String expected = "dog";
         assertEquals(expected, testFarm.newGame("dog"));
     }
+
+    @Test
+    public void gameOver_gameOverMessage_GameOverForPlayer() {
+        Farm testFarm = new Farm();
+        boolean gameRunning = false;
+        assertTrue(true, testFarm.gameOver);
+    }
 }
