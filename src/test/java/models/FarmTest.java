@@ -22,6 +22,6 @@ public class FarmTest {
     @Test
     public void gameOver_gameOverMessage_GameOverForPlayer() {
         Farm testFarm = new Farm();
-        assertEquals(null, testFarm.gameOver());
+        assertEquals(false, testFarm.gameOver());
     }
 }
