@@ -9,7 +9,7 @@ public class FarmTest {
     @Test
     public void newGame_instantiatesCorrectly_true() {
         Farm testFarm = new Farm();
-        assertEquals(false, testFarm instanceof Farm);
+        assertEquals(true, testFarm instanceof Farm);
     }
 
 }
