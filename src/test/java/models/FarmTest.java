@@ -12,4 +12,10 @@ public class FarmTest {
         assertEquals(true, testFarm instanceof Farm);
     }
 
+    @Test
+    public void newGame_systemReturnsContent_false() {
+        Farm testFarm = new Farm();
+        String expected = "dog";
+        assertEquals(expected, testFarm.newGame("dog"));
+    }
 }
